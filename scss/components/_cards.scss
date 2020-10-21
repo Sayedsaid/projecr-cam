@@ -1,0 +1,101 @@
+
+
+.card-heading {
+    color: $color-black;
+    font-size: 2rem;
+    font-weight: 400;
+    padding: .1rem .5rem;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+
+.cardu {
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    &__img {
+        height: 23rem !important;
+        border-radius: 20px 20px 0 0;
+        -webkit-border-radius: 20px 20px 0 0;
+        -moz-border-radius: 20px 20px 0 0;
+        -ms-border-radius: 20px 20px 0 0;
+        -o-border-radius: 20px 20px 0 0;
+    }
+
+    &__list {
+        &-star {
+            color: $color-primary;
+            font-size: 1.6rem;
+            font-weight: 500;
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+    }
+
+    &-link {
+        color: $color-primary;
+        font-size: 14px;
+        font-weight: 700;
+        font-family: 'manrope';
+        &:hover {
+            color: $color-primary;
+        }
+    }
+}
+
+.card__fav {
+    height: 2.5rem;
+    width: 2.5rem;
+    background-color: $color-primary;
+    border-radius: 50px;
+    position: absolute;
+    display: inline-block;
+    float: right;
+    top: 215px;
+    right: 2.5rem;
+    &-icon {
+        color: $color-white;
+        font-size: 1.6rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+}
+}
+
+.cardu__heading {
+    font-size: 17px;
+    margin-top: 0;
+    color: #070403;
+    margin-bottom: 10px;
+    font-family: 'manrope';
+}
+
+.cardu__heading2 {
+    font-size: 18px;
+    color: $color-black;
+    font-weight: 600;
+    font-family: 'manrope';
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.cardu__p {
+    color: #B6B5B5;
+    line-height: 23px;
+    font-family: 'manrope';
+    margin: 0 0 10px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.cardu2dev {
+    padding-top: 15px;
+}

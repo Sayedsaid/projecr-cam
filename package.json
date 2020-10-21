@@ -1,0 +1,25 @@
+{
+  "name": "broject-cameron",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "comp": "node-sass scss/main.scss CSS/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sayedsaid/projecr-cam.git"
+  },
+  "author": "Sayed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sayedsaid/projecr-cam/issues"
+  },
+  "homepage": "https://github.com/Sayedsaid/projecr-cam#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.1"
+  },
+  "dependencies": {
+    "material-design-icons": "^3.0.1"
+  }
+}

@@ -1,0 +1,55 @@
+#sidebar-wrapper {
+    position: fixed;
+    min-height: 100vh !important;
+    z-index: 3;
+    width: 20rem;
+    background-color: $color-white;
+
+    .sidebar-img {
+        background-color: $color-white;
+        height: 55px;
+    }
+    .sidebar__list {
+
+        list-style: none !important;
+        padding-top: 25px !important;
+
+
+
+
+        &-item {
+            border: none !important;
+            font-size: 1.4rem;
+            font-family: manrope;
+            font-weight: 600;
+            white-space: nowrap;
+            
+            
+            i {
+                font-size: 1.8rem;
+                font-weight: 300 !important;
+                padding-top: 3px;
+                
+                
+            }
+
+
+            &-link {
+                text-decoration: none;
+                color: $color-black;
+                padding: 8px 0 8px 20px !important;
+                margin: 2px 0 !important;
+                color: $color-grey-dark-3;
+                
+                
+                
+
+                &:hover,
+                :visited {
+                    box-shadow: 0 0 2rem rgba($color-black, .05);
+                    color: $color-primary !important;
+                }
+            }
+        }
+    }
+}
