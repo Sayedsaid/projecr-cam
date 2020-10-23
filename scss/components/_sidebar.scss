@@ -23,6 +23,9 @@
             font-family: manrope;
             font-weight: 600;
             white-space: nowrap;
+            &.active {
+                background-color: $color-white !important;
+            }
             
             
             i {
@@ -40,6 +43,9 @@
                 padding: 8px 0 8px 20px !important;
                 margin: 2px 0 !important;
                 color: $color-grey-dark-3;
+                &.active {
+                    color: $color-primary !important;
+                }
                 
                 
                 

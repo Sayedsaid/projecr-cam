@@ -253,6 +253,8 @@ body {
       font-family: manrope;
       font-weight: 600;
       white-space: nowrap; }
+      #sidebar-wrapper .sidebar__list-item.active {
+        background-color: #fff !important; }
       #sidebar-wrapper .sidebar__list-item i {
         font-size: 1.8rem;
         font-weight: 300 !important;
@@ -263,6 +265,8 @@ body {
         padding: 8px 0 8px 20px !important;
         margin: 2px 0 !important;
         color: #333; }
+        #sidebar-wrapper .sidebar__list-item-link.active {
+          color: #e67e22 !important; }
         #sidebar-wrapper .sidebar__list-item-link:hover,
         #sidebar-wrapper .sidebar__list-item-link :visited {
           box-shadow: 0 0 2rem rgba(0, 0, 0, 0.05);
@@ -331,6 +335,9 @@ body {
   .search-icon a i {
     color: #fff;
     font-size: 2rem; }
+
+.navitem .active {
+  color: #e67e22 !important; }
 
 #page-content-wrapper {
   padding-left: 20rem; }
